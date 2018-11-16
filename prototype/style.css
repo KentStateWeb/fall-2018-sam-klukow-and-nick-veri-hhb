@@ -5,16 +5,44 @@
 
 body {
   max-width: 1000px;
-  padding: 3em;
+  //padding: 3em;
   font-family: Helvetica, Arial, sans-serif;
-  margin: 0 auto;
   font-family: avenir;
+  margin: 0 auto;
+}
+
+.logo{
+  background-color: #741B03;
+  margin: 0;
+}
+
+.logo img {
+    width: 75%;
+}
+
+.address {
+  margin: 0;
+  background-color: #F4F2F2;
+  padding: 1em 25%;
 }
 
 .nav, .res, h2 {
   font-family: museo-slab;
 }
 
+.nav {
+  background-image: url('images/restaurantbar.jpg');
+  position: relative;
+  height: auto;
+  height: 25%;
+  width: auto;
+  width: 100%;
+  opacity: 50%;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
 
 div, section, main, aside, header, footer {
   //border: 1px solid lightgray;
@@ -24,6 +52,7 @@ div, section, main, aside, header, footer {
 
 header {
   text-align: center;
+  padding: 0;
 }
 
 ul {
