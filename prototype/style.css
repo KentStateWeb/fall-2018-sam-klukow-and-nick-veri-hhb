@@ -23,7 +23,13 @@ header {
 ul {
       list-style-type: none;
       padding: 0;
+      width: 60%;
+      margin: 0 auto;
     }
+
+li {
+  padding: .75em 0;
+}
 
 address {
   font-style: normal;
@@ -36,4 +42,45 @@ a {
 
 a:visited {
   color: black;
+}
+
+h2 {
+  text-align: center;
+  border: 2px solid lightgray;
+  width: 60%;
+  margin: .5em auto;
+  padding: .5em 0;
+}
+
+p{
+  width: 60%;
+  margin: 0 auto;
+  padding: 1.5em 0;
+}
+
+.res {
+  text-align: center;
+  text-decoration: underline;
+  border: 2px solid lightgray;
+  width: 50%;
+  margin: .5em auto;
+  padding: .5em 0;
+}
+
+.features{
+  border: none;
+  margin: 0 auto;
+  padding: .5em 0;
+}
+
+.features li {
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  text-align: left;
 }
