@@ -34,12 +34,10 @@ body {
 .nav {
   background-image: url('images/restaurantbar.jpg');
   position: relative;
-  height: auto;
   height: 25%;
-  width: auto;
   width: 100%;
   //opacity: 50%;
-  background-color: white;
+  //background-color: white;
   overflow: hidden;
   display: flex;
   align-items: center;
