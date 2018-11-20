@@ -46,14 +46,18 @@ body {
   display: flex;
   align-items: center;
   margin: 0;
-  box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .4)
+  box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .4);
+
+
 }
 
 .nav li {
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .4);
   //border: 1px solid #292929;
   //color: #F4F2F2;
+
 }
+
 
 div, section, aside, footer {
   //border: 1px solid lightgray;
