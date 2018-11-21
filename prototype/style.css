@@ -53,7 +53,7 @@ body {
 
 .nav li a {
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .4);
-  border: 1px solid #292929;
+  border: 2px solid #292929;
   color: white;
   display: inline-block;
   padding: .75em 2em;
@@ -107,8 +107,6 @@ a:visited {
   //background-color: rgba(41, 41, 41, .25)
   //color: #F4F2F2;
 }
-
-
 
 h2 {
   text-align: center;
