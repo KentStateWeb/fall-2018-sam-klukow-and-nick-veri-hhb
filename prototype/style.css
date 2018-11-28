@@ -18,7 +18,7 @@ body {
 
 .logo img {
     width: 75%;
-    max-width: 900px;
+    max-width: 600px;
 }
 
 .logo img {
@@ -124,6 +124,27 @@ p {
   color: #292929
 }
 
+@media screen and (min-width: 800px){
+  p, h2, .hours li, ul {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .columns {
+    display: flex;
+  }
+  .third li {
+    width: 45%;
+  }
+}
+
+.columns {
+  margin: 0;
+  padding: 0;
+}
+
+
 .hours {
   margin: 0;
   background-color: #292929;
@@ -138,13 +159,13 @@ p {
   margin: 0 auto;
 }
 
-.first {
+.first, .first-brews {
   margin: 0;
   padding-bottom: 2em;
   background-color: #292929;
 }
 
-.first li, h2 {
+.first li, h2, .first-brews li, h2  {
   color: #F4F2F2;
 }
 
@@ -152,7 +173,7 @@ p {
   //padding: 0;
 }
 
-.first h2{
+.first h2, .first-brews h2{
   border: 2px solid #741B03;
   margin-top: 1em;
 }
@@ -183,19 +204,19 @@ p {
   padding: 0;
 }
 
-.third {
+.third, .third-growler {
   background-color: #741B03;
   padding-bottom: 3em;
   margin: 0;
 }
 
-.third h2 {
+.third h2, .third-growler h2 {
   margin-top: 1em;
   color: #F4F2F2;
   border: 2px solid #292929;
 }
 
-.third li{
+.third li, .third-growler li{
   color: #F4F2F2;
 }
 
