@@ -125,13 +125,13 @@ p {
 }
 
 .hours {
-
+  margin: 0;
   background-color: #292929;
 
 }
 
 .hours li {
-  width: 60%;
+  width: 80%;
   padding: 10px 0;
   color: #F4F2F2;
   text-align: center;
@@ -213,6 +213,10 @@ p {
 
 .fourth li{
   color: #F4F2F2;
+}
+
+.taproom li {
+  text-align: center;
 }
 
 .res {
