@@ -125,14 +125,17 @@ p {
 }
 
 .hours {
-  margin: 0;
+
   background-color: #292929;
+
 }
 
-.hours p {
+.hours li {
   width: 60%;
   padding: 10px 0;
   color: #F4F2F2;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .first {
