@@ -45,6 +45,7 @@ body {
   align-items: center;
   margin: 0 auto;
   box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .7);
+      background-position: center;
 }
 
 .nav ul{
@@ -124,24 +125,53 @@ p {
   color: #292929
 }
 
+.taproom .columns{
+  text-decoration: underline;
+  color: white;
+}
+
+.second hr{
+  border-color: black;
+}
+
 @media screen and (min-width: 800px){
   p, h2, .hours li, ul {
     width: 60%;
+  }
+
+  .hrs {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 95%;
+    span: block;
+  }
+
+  .hrs span{
+    display: block;
+  }
+
+  .topnav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    span: block;
+  }
+
+
+
+  .nav li a{
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 1200px){
   .columns {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin: auto;
   }
-  .third li {
-    width: 45%;
-  }
-}
 
-.columns {
-  margin: 0;
-  padding: 0;
 }
 
 
@@ -187,6 +217,7 @@ p {
   overflow: hidden;
   //display: flex;
     background-size: cover;
+    background-position: center;
 }
 
 .second h2{
