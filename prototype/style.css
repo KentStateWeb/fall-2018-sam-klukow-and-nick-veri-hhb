@@ -139,6 +139,10 @@ p {
     width: 60%;
   }
 
+hr {
+  width: 80%;
+}
+
   .hrs {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
