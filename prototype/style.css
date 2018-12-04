@@ -135,7 +135,7 @@ p {
 }
 
 @media screen and (min-width: 800px){
-  p, h2, .hours li, ul, hr {
+  p, h2, .hours li, ul {
     width: 60%;
   }
 
@@ -157,7 +157,9 @@ p {
     span: block;
   }
 
-
+.topnav li{
+  width: 0 auto;
+}
 
   .nav li a{
     width: 100%;
