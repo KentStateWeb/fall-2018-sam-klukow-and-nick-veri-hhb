@@ -135,7 +135,7 @@ p {
 }
 
 @media screen and (min-width: 800px){
-  p, h2, .hours li, ul {
+  p, h2, .hours li, ul, hr {
     width: 60%;
   }
 
